@@ -1,4 +1,7 @@
 creds.yml
 jumpbox.key
 *.pem
-vars/*
+vars/*.yml
+vars/*.tfvars
+env-repo/*.yml
+cf-deployment

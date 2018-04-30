@@ -1,0 +1,62 @@
+{
+    "director_id": "a7927f60-a637-4aab-6584-b712874956ac",
+    "installation_id": "e8806171-7e8b-4012-6f64-8509bb376bea",
+    "current_vm_cid": "i-0049ceafccad325f6",
+    "current_stemcell_id": "1b5e6ccc-8c69-453b-7e00-ccec1a330bc8",
+    "current_disk_id": "88e7044e-1e4a-4917-5569-05a0da999db3",
+    "current_release_ids": [
+        "dc289a8e-6137-4fce-6776-e16eba64a829",
+        "3f1b22bd-f99f-463e-4e72-d1f337cd2f44",
+        "f19f6c15-5f4c-4b5f-59d3-d1f83a94eb41",
+        "fdb75057-b351-4b37-444d-eecd9edd58c0",
+        "b7547e37-3d67-4b56-7c8a-a348ac7b9b63"
+    ],
+    "current_manifest_sha": "ddb656bb32fc55bbbb5b8e8fc768591da78111fc2bb32f7e6d3b1d173d90fe1aa324d6eec564cba3cfbbe1464c0e097e589cac72f1320a2cf7f7d35221b8917b",
+    "disks": [
+        {
+            "id": "88e7044e-1e4a-4917-5569-05a0da999db3",
+            "cid": "vol-0ebae19040de07182",
+            "size": 65536,
+            "cloud_properties": {
+                "encrypted": true,
+                "kms_key_arn": "arn:aws:kms:us-east-1:722216819315:key/8e8b6939-4790-434c-840c-59088da1d830",
+                "type": "gp2"
+            }
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "1b5e6ccc-8c69-453b-7e00-ccec1a330bc8",
+            "name": "bosh-aws-xen-hvm-ubuntu-trusty-go_agent",
+            "version": "3541.10",
+            "cid": "ami-0f984172 light"
+        }
+    ],
+    "releases": [
+        {
+            "id": "dc289a8e-6137-4fce-6776-e16eba64a829",
+            "name": "bosh",
+            "version": "265.2.0"
+        },
+        {
+            "id": "3f1b22bd-f99f-463e-4e72-d1f337cd2f44",
+            "name": "bosh-aws-cpi",
+            "version": "69"
+        },
+        {
+            "id": "f19f6c15-5f4c-4b5f-59d3-d1f83a94eb41",
+            "name": "os-conf",
+            "version": "18"
+        },
+        {
+            "id": "fdb75057-b351-4b37-444d-eecd9edd58c0",
+            "name": "uaa",
+            "version": "52.8"
+        },
+        {
+            "id": "b7547e37-3d67-4b56-7c8a-a348ac7b9b63",
+            "name": "credhub",
+            "version": "1.6.5"
+        }
+    ]
+}
