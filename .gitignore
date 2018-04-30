@@ -1,2 +1,4 @@
 creds.yml
 jumpbox.key
+*.pem
+vars/*
